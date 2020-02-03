@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Jeux Tic Tac Toe</string>
+    <string name="app_name_Mode2joueurs">Jeux Tic Tac Toe - Mode 2 Joueurs</string>
+    <string name="app_name_Mode1joueurs">Jeux Tic Tac Toe - Mode 1 Joueurs</string>
+    <string name="app_name_apropos">Jeux Tic Tac Toe - A Propos</string>
+
+
+    <string name="Mode2JoueursTexte">Mode 2 Joueurs</string>
+    <string name="Mode2Joueurs">Mode 2 Joueurs click</string>
+
+    <string name="Mode1JoueurTexte">Mode 1 Joueur</string>
+    <string name="Mode1Joueur">Mode 1 Joueur click</string>
+
+    <string name="aproposTexte">A Propos</string>
+    <string name="apropos">A Propos click</string>
+
+    <string name="quitterText">Quitter</string>
+    <string name="quitter">Quitter click</string>
+
+    <string name="x_move">Tour au Joueurs X</string>
+    <string name="vide">""</string>
+    <string name="Mode2Joueur_label">""</string>
+
+    <string name="makeMove">"-"</string>
+
+
+s
+
+</resources>

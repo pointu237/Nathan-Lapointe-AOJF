@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center"
+    android:ignoreGravity="@+id/activity_menu"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.nathanlapointe.jeuxtictactoe.Menu">
+
+    <Button
+        android:id="@+id/Mode1Joueurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mode2Joueurs"
+        android:layout_below="@+id/Mode2Joueurs"
+        android:layout_marginTop="41dp"
+        android:background="@color/button"
+        android:onClick="Mode1Joueur_click"
+        android:text="@string/Mode1JoueurTexte" />
+
+    <Button
+        android:id="@+id/aproposbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mode2Joueurs"
+        android:layout_below="@+id/Mode1Joueurs"
+        android:layout_marginTop="42dp"
+        android:background="@color/button"
+        android:onClick="apropos_click"
+        android:text="aproposbtn" />
+
+    <Button
+        android:id="@+id/quitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Mode2Joueurs"
+        android:layout_below="@+id/aproposbtn"
+        android:layout_marginTop="41dp"
+        android:background="@color/button"
+        android:onClick="quitter_click"
+        android:text="Quitter" />
+
+    <Button
+        android:id="@+id/Mode2Joueurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:background="@color/button"
+        android:onClick="Mode2Joueurs_click"
+        android:text="@string/Mode2JoueursTexte" />
+
+
+</RelativeLayout>
